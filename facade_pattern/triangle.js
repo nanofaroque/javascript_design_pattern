@@ -1,11 +1,14 @@
-'use strict'
-const Shape = require('./shape')
-class Triangle extends Shape{
-    constructor(){
+'use strict';
+const Shape = require('./shape');
+
+class Triangle extends Shape {
+    constructor() {
         super();
     }
-    draw(){
+
+    draw() {
         console.log('I am drawing triangle')
     }
 }
+
 module.exports = Triangle;
